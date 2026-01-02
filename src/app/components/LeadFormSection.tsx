@@ -116,7 +116,7 @@ export function LeadFormSection() {
 
               {/* Requirements */}
               <div className="text-right">
-                <label className="block mb-2">الاحتياجات *</label>
+                <label className="block mb-2">اي الاحتياج المعدني الي محتاج تنفذه؟  *</label>
                 <textarea
                   {...register('requirements', { required: 'هذا الحقل مطلوب' })}
                   className="w-full px-4 py-3 rounded-lg border min-h-[100px]"
